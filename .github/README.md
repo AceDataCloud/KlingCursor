@@ -1,6 +1,6 @@
 <!-- Generated from README.md by AceDataCloud/Index plans/plugin-readme-audit/render_channel_readmes.py. -->
 
-# Kling by Ace Data Cloud for Cursor
+# Kling for Cursor
 
 Ace Data Cloud maintains this third-party plugin. It uses your Ace Data Cloud application token to generate videos through the [Ace Data Cloud Kling MCP](https://github.com/AceDataCloud/MCPs/tree/main/kling). Usage is billed to your Ace Data Cloud account. Available tools and limits come from the live MCP schema.
 
@@ -8,7 +8,7 @@ Ace Data Cloud maintains this third-party plugin. It uses your Ace Data Cloud ap
 
 ## 1. Search and install
 
-In Cursor 3.24, open **Customize → Browse Marketplace**, search for **Kling by Ace Data Cloud**, confirm **Ace Data Cloud Dev** and the service logo, then click **Add**. Older releases may put Plugins under Settings. You can also use `/add-plugin kling` in chat. If the official listing is not live, review this source under `~/.cursor/plugins/local/kling/`; local installation does not prove Marketplace publication.
+In Cursor 3.24, open **Customize → Browse Marketplace**, search for **Kling**, confirm **Ace Data Cloud Dev** and the service logo, then click **Add**. Older releases may put Plugins under Settings. You can also use `/add-plugin kling` in chat. If the official listing is not live, review this source under `~/.cursor/plugins/local/kling/`; local installation does not prove Marketplace publication.
 
 ## 2. Get a service API key
 
@@ -20,7 +20,7 @@ Use a service API key, not a platform management token. Do not put it in chat or
 
 ## 3. Configure the plugin
 
-Open **Customize → Plugins → Kling by Ace Data Cloud → Configure**, paste the key string into **Ace Data Cloud API token**, and click **Save**. Cursor uses it as `ACEDATACLOUD_API_TOKEN`; the plugin adds `Bearer `. Reconnect the MCP server if tools are missing. The hosted endpoint needs no local Python installation.
+Open **Customize → Plugins → Kling → Configure**, paste the key string into **Ace Data Cloud API token**, and click **Save**. Cursor uses it as `ACEDATACLOUD_API_TOKEN`; the plugin adds `Bearer `. Reconnect the MCP server if tools are missing. The hosted endpoint needs no local Python installation.
 
 ```json
 {
